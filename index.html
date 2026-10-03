@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#14110e">
+  <title>X-S20 backups</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@420;580;680&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="bar">
+        <div class="brand-row">
+          <p class="brand"><a href="/">X-S20</a></p>
+          <a class="to-ideas" href="/ideas">Ideas</a>
+          <a class="to-ideas" href="/recipes/">Recipes</a>
+        </div>
+        <p class="hint" id="hint"></p>
+      </div>
+      <div class="segments" id="backups" role="tablist"></div>
+      <div class="chips" id="filters"></div>
+    </header>
+    <div class="stage" id="stage"></div>
+  </div>
+
+  <dialog id="sheet">
+    <form method="dialog" class="sheet">
+      <div id="sheet-body"></div>
+    </form>
+  </dialog>
+
+  <dialog id="pop">
+    <form method="dialog" class="pop">
+      <div id="pop-body"></div>
+    </form>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="/likes.js?v=2"></script>
+  <script src="/ideas/fuji-triangle.js?v=1"></script>
+  <script src="/ideas/fuji-settings.js?v=6"></script>
+  <script src="app.js"></script>
+</body>
+</html>

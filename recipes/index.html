@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#14110e">
+  <title>Recipes · X-S20</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@420;580;680&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/ideas/ideas.css?v=6">
+  <link rel="stylesheet" href="/recipes/recipes.css?v=3">
+</head>
+<body data-page="all-recipes">
+  <div class="app">
+    <header>
+      <div class="bar">
+        <div class="brand-row">
+          <p class="brand"><a href="/">X-S20</a></p>
+          <a class="nav" href="/recipes/" aria-current="page">Recipes</a>
+        </div>
+        <div class="end">
+          <a class="nav" href="/ideas">Ideas</a>
+          <a class="nav" href="/">Backups</a>
+        </div>
+      </div>
+      <p class="lede" id="lede"></p>
+      <div class="tools">
+        <input id="q" type="search" placeholder="Search name, code, PK-023, Shadow…" autocomplete="off" aria-label="Search recipes">
+        <div class="by" role="group" aria-label="Group by">
+          <button type="button" data-by="group" aria-pressed="true">Group</button>
+          <button type="button" data-by="sim" aria-pressed="false">Film sim</button>
+        </div>
+      </div>
+      <div class="chips" id="f-group" aria-label="Group"></div>
+      <div class="chips" id="f-sim" aria-label="Film sim"></div>
+      <div class="chips" id="f-light" aria-label="Light"></div>
+    </header>
+    <details class="legend" id="legend">
+      <summary>Naming</summary>
+      <div id="legend-body"></div>
+    </details>
+    <main id="main"></main>
+  </div>
+  <script src="/data.js"></script>
+  <script src="/ideas/ideas-data.js"></script>
+  <script src="/likes.js?v=2"></script>
+  <script src="/ideas/fuji-triangle.js?v=1"></script>
+  <script src="/ideas/fuji-settings.js?v=6"></script>
+  <script src="/recipes/recipes.js?v=5"></script>
+</body>
+</html>

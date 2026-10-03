@@ -130,7 +130,7 @@ const items = [
       exposure: recipe.exposure || "",
       dials,
       image: recipe.images[0],
-      href: `/?recipe=${encodeURIComponent(recipe.id)}`,
+      href: `${siteUrl("")}?recipe=${encodeURIComponent(recipe.id)}`,
       shots: [],
       light,
     };
@@ -254,9 +254,9 @@ function tileChips(shot) {
 
 function shotTile(shot) {
   const saved = ideaLikes.has(shot.id);
-  return `<a class="tile" href="/ideas/park/#${esc(shot.id)}" title="${esc(shot.label || shot.look)}${saved ? " · saved" : ""}">
+  return `<a class="tile" href="${siteUrl("ideas/park/")}#${esc(shot.id)}" title="${esc(shot.label || shot.look)}${saved ? " · saved" : ""}">
     ${saved ? `<span class="mini-heart" aria-hidden="true">♥</span>` : ""}
-    <img src="${esc(shot.image)}" alt="" loading="lazy">
+    <img src="${esc(siteUrl(shot.image))}" alt="" loading="lazy">
     <span class="tile-cap"><b>${esc(shot.code || "")}</b><span class="deltas">${tileChips(shot)}</span></span>
   </a>`;
 }
@@ -269,7 +269,7 @@ function baseCard(item) {
   const shots = visibleShots(item);
   const asIs = item.shots.filter((shot) => !(shot.delta || []).length).length;
   const open = state.open.has(item.id) || (state.q && shots.length && shots.length < item.shots.length);
-  const strip = shots.slice(0, 5).map((shot) => `<img src="${esc(shot.image)}" alt="" loading="lazy">`).join("");
+  const strip = shots.slice(0, 5).map((shot) => `<img src="${esc(siteUrl(shot.image))}" alt="" loading="lazy">`).join("");
   const count = shots.length === item.shots.length
     ? `${item.shots.length} shots · ${asIs} as is`
     : `${shots.length} of ${item.shots.length} shots`;
@@ -286,7 +286,7 @@ function baseCard(item) {
       <p class="rc-look">${esc(item.look)}</p>
       ${dialTable(item.dials, item.sim, "", item.code)}
       <div class="tiles">${shots.map(shotTile).join("")}</div>
-      <a class="rc-link" href="/ideas/park/recipes#${esc(item.id)}">Exposure for each shot</a>
+      <a class="rc-link" href="${siteUrl("ideas/park/recipes/")}#${esc(item.id)}">Exposure for each shot</a>
     </div>` : ""}
   </article>`;
 }
@@ -295,7 +295,7 @@ function catalogCard(item) {
   const open = state.open.has(item.id);
   return `<article class="rc cat${open ? " open" : ""}" id="${esc(item.id)}">
     <button type="button" class="rc-hit" data-open="${esc(item.id)}" aria-expanded="${open}">
-      <span class="strip one"><img src="${esc(item.image)}" alt="" loading="lazy"></span>
+      <span class="strip one"><img src="${esc(siteUrl(item.image))}" alt="" loading="lazy"></span>
       <span class="rc-body">
         <span class="rc-top"><b class="rc-name">${esc(item.name)}</b>${item.code ? `<span class="code">${esc(item.code)}</span>` : ""}</span>
         <span class="rc-sim">${swatch(item.sim)}${esc(item.sim)}</span>
@@ -362,7 +362,7 @@ function syncUrl() {
   if (state.q) next.set("q", state.q);
   if (state.by === "sim") next.set("by", "sim");
   const query = next.toString();
-  history.replaceState(null, "", `/recipes/${query ? `?${query}` : ""}${location.hash}`);
+  history.replaceState(null, "", `${siteUrl("recipes/")}${query ? `?${query}` : ""}${location.hash}`);
 }
 
 function toggleChip(kind, value) {

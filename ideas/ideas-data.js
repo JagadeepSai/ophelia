@@ -16,10 +16,10 @@ const IDEAS = {
       "id": "park",
       "title": "Park",
       "code": "PK",
-      "href": "/ideas/park",
+      "href": "ideas/park/",
       "status": "ready",
       "blurb": "How to shoot each frame. 7 recipes cover all 79, most with one or two dials changed.",
-      "cover": "/public/ideas/park/c8cb66f7b4d713967ae3c5f67990e5a6_002_x1EB.jpg"
+      "cover": "public/ideas/park/c8cb66f7b4d713967ae3c5f67990e5a6_002_x1EB.jpg"
     }
   ],
   "bases": [
@@ -283,7 +283,7 @@ const IDEAS = {
       "code": "PK-001",
       "label": "PK-001 PK-CC-SHADE CCE-S",
       "group": "park",
-      "image": "/public/ideas/park/d3cc45a56d185322cb911e195dd69c53_004_x1EB.jpg",
+      "image": "public/ideas/park/d3cc45a56d185322cb911e195dd69c53_004_x1EB.jpg",
       "file": "d3cc45a56d185322cb911e195dd69c53_004_x1EB.jpg",
       "tags": [
         "dappled",
@@ -339,7 +339,7 @@ const IDEAS = {
       "code": "PK-002",
       "label": "PK-002 PK-CC-SUN H-1",
       "group": "park",
-      "image": "/public/ideas/park/9c025f263dfb5bfe59449b67333cd160_004_x1EB.jpg",
+      "image": "public/ideas/park/9c025f263dfb5bfe59449b67333cd160_004_x1EB.jpg",
       "file": "9c025f263dfb5bfe59449b67333cd160_004_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -396,7 +396,7 @@ const IDEAS = {
       "code": "PK-003",
       "label": "PK-003 PK-NN-WARM H-2 CL-4",
       "group": "park",
-      "image": "/public/ideas/park/725ec984725305ae1855b5d17547781a_004_x1EB.jpg",
+      "image": "public/ideas/park/725ec984725305ae1855b5d17547781a_004_x1EB.jpg",
       "file": "725ec984725305ae1855b5d17547781a_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -459,7 +459,7 @@ const IDEAS = {
       "code": "PK-004",
       "label": "PK-004 PK-CN-FADE S+1",
       "group": "park",
-      "image": "/public/ideas/park/aa08a291417dfd3793aa8f216798297f_003_x1EB.jpg",
+      "image": "public/ideas/park/aa08a291417dfd3793aa8f216798297f_003_x1EB.jpg",
       "file": "aa08a291417dfd3793aa8f216798297f_003_x1EB.jpg",
       "tags": [
         "dappled",
@@ -515,7 +515,7 @@ const IDEAS = {
       "code": "PK-005",
       "label": "PK-005 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/ebcfdbde655e3424e2dd3cf609c3a6f4_004_x1EB.jpg",
+      "image": "public/ideas/park/ebcfdbde655e3424e2dd3cf609c3a6f4_004_x1EB.jpg",
       "file": "ebcfdbde655e3424e2dd3cf609c3a6f4_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -563,7 +563,7 @@ const IDEAS = {
       "code": "PK-006",
       "label": "PK-006 PK-CC-HAZE",
       "group": "park",
-      "image": "/public/ideas/park/6a75c551abe4841fc65f9039d4885f65_004_x1EB.jpg",
+      "image": "public/ideas/park/6a75c551abe4841fc65f9039d4885f65_004_x1EB.jpg",
       "file": "6a75c551abe4841fc65f9039d4885f65_004_x1EB.jpg",
       "tags": [
         "backlight",
@@ -611,7 +611,7 @@ const IDEAS = {
       "code": "PK-007",
       "label": "PK-007 PK-AS-SOFT",
       "group": "park",
-      "image": "/public/ideas/park/4dceaab2bd891671950eee67bdb05d04_002_x1EB.jpg",
+      "image": "public/ideas/park/4dceaab2bd891671950eee67bdb05d04_002_x1EB.jpg",
       "file": "4dceaab2bd891671950eee67bdb05d04_002_x1EB.jpg",
       "tags": [
         "shade",
@@ -660,7 +660,7 @@ const IDEAS = {
       "code": "PK-008",
       "label": "PK-008 PK-CC-SHADE CCE-S",
       "group": "park",
-      "image": "/public/ideas/park/02175361021d740b1346c337a4506f00_004_x1EB.jpg",
+      "image": "public/ideas/park/02175361021d740b1346c337a4506f00_004_x1EB.jpg",
       "file": "02175361021d740b1346c337a4506f00_004_x1EB.jpg",
       "tags": [
         "dappled",
@@ -716,7 +716,7 @@ const IDEAS = {
       "code": "PK-009",
       "label": "PK-009 PK-CC-SUN",
       "group": "park",
-      "image": "/public/ideas/park/7ccbea0df42cab6c40a5994814245ce1_x1EB.png",
+      "image": "public/ideas/park/7ccbea0df42cab6c40a5994814245ce1_x1EB.png",
       "file": "7ccbea0df42cab6c40a5994814245ce1_x1EB.png",
       "tags": [
         "hard-sun",
@@ -765,7 +765,7 @@ const IDEAS = {
       "code": "PK-010",
       "label": "PK-010 PK-CN-FADE",
       "group": "park",
-      "image": "/public/ideas/park/14b864102936e48ec0ad83f0eedb2c0d_004_x1EB.jpg",
+      "image": "public/ideas/park/14b864102936e48ec0ad83f0eedb2c0d_004_x1EB.jpg",
       "file": "14b864102936e48ec0ad83f0eedb2c0d_004_x1EB.jpg",
       "tags": [
         "shade",
@@ -813,7 +813,7 @@ const IDEAS = {
       "code": "PK-011",
       "label": "PK-011 PK-CC-SUN S+2",
       "group": "park",
-      "image": "/public/ideas/park/eb4b5700431cab915d12f50d41834d86_004_x1EB.jpg",
+      "image": "public/ideas/park/eb4b5700431cab915d12f50d41834d86_004_x1EB.jpg",
       "file": "eb4b5700431cab915d12f50d41834d86_004_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -870,7 +870,7 @@ const IDEAS = {
       "code": "PK-012",
       "label": "PK-012 PK-CC-SHADE",
       "group": "park",
-      "image": "/public/ideas/park/48d8e2782ccee910c3c936fb67863e84_004_x1EB.jpg",
+      "image": "public/ideas/park/48d8e2782ccee910c3c936fb67863e84_004_x1EB.jpg",
       "file": "48d8e2782ccee910c3c936fb67863e84_004_x1EB.jpg",
       "tags": [
         "dappled",
@@ -918,7 +918,7 @@ const IDEAS = {
       "code": "PK-013",
       "label": "PK-013 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/ef8670afa442152f9842b1ba355c43eb_004_x1EB.jpg",
+      "image": "public/ideas/park/ef8670afa442152f9842b1ba355c43eb_004_x1EB.jpg",
       "file": "ef8670afa442152f9842b1ba355c43eb_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -966,7 +966,7 @@ const IDEAS = {
       "code": "PK-014",
       "label": "PK-014 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/d60d3f6ff4e0e0c1eea193b419313d85_004_x1EB.jpg",
+      "image": "public/ideas/park/d60d3f6ff4e0e0c1eea193b419313d85_004_x1EB.jpg",
       "file": "d60d3f6ff4e0e0c1eea193b419313d85_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -1014,7 +1014,7 @@ const IDEAS = {
       "code": "PK-015",
       "label": "PK-015 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/07470b0922bb626f1030d35e755d17c8_003_x1EB.jpg",
+      "image": "public/ideas/park/07470b0922bb626f1030d35e755d17c8_003_x1EB.jpg",
       "file": "07470b0922bb626f1030d35e755d17c8_003_x1EB.jpg",
       "tags": [
         "golden",
@@ -1061,7 +1061,7 @@ const IDEAS = {
       "code": "PK-016",
       "label": "PK-016 PK-CC-HAZE",
       "group": "park",
-      "image": "/public/ideas/park/08684eeb256f6c8919148bcec836873d_003_x1EB.jpg",
+      "image": "public/ideas/park/08684eeb256f6c8919148bcec836873d_003_x1EB.jpg",
       "file": "08684eeb256f6c8919148bcec836873d_003_x1EB.jpg",
       "tags": [
         "backlight",
@@ -1108,7 +1108,7 @@ const IDEAS = {
       "code": "PK-017",
       "label": "PK-017 PK-CC-SUN",
       "group": "park",
-      "image": "/public/ideas/park/095e9a3dfd0f7f22ba0beead86ae5931_003_x1EB.jpg",
+      "image": "public/ideas/park/095e9a3dfd0f7f22ba0beead86ae5931_003_x1EB.jpg",
       "file": "095e9a3dfd0f7f22ba0beead86ae5931_003_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -1155,7 +1155,7 @@ const IDEAS = {
       "code": "PK-018",
       "label": "PK-018 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/12c84faa380924674a492ca0596a1fb1_004_x1EB.jpg",
+      "image": "public/ideas/park/12c84faa380924674a492ca0596a1fb1_004_x1EB.jpg",
       "file": "12c84faa380924674a492ca0596a1fb1_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -1202,7 +1202,7 @@ const IDEAS = {
       "code": "PK-019",
       "label": "PK-019 PK-CC-SUN",
       "group": "park",
-      "image": "/public/ideas/park/139c477f5a3f3680a35a895a0cd16395_003_x1EB.jpg",
+      "image": "public/ideas/park/139c477f5a3f3680a35a895a0cd16395_003_x1EB.jpg",
       "file": "139c477f5a3f3680a35a895a0cd16395_003_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -1250,7 +1250,7 @@ const IDEAS = {
       "code": "PK-020",
       "label": "PK-020 PK-CC-HAZE",
       "group": "park",
-      "image": "/public/ideas/park/19efc4db066051bfd54165150a5cf151_x1EB.jpg",
+      "image": "public/ideas/park/19efc4db066051bfd54165150a5cf151_x1EB.jpg",
       "file": "19efc4db066051bfd54165150a5cf151_x1EB.jpg",
       "tags": [
         "backlight",
@@ -1297,7 +1297,7 @@ const IDEAS = {
       "code": "PK-021",
       "label": "PK-021 PK-AS-SOFT",
       "group": "park",
-      "image": "/public/ideas/park/1eacc8f45ce2086ce19c73e46cb50d64_003_x1EB.jpg",
+      "image": "public/ideas/park/1eacc8f45ce2086ce19c73e46cb50d64_003_x1EB.jpg",
       "file": "1eacc8f45ce2086ce19c73e46cb50d64_003_x1EB.jpg",
       "tags": [
         "overhead",
@@ -1345,7 +1345,7 @@ const IDEAS = {
       "code": "PK-022",
       "label": "PK-022 PK-CC-SHADE CCE-S",
       "group": "park",
-      "image": "/public/ideas/park/1f7418bd99f26afeb708159ceb88bdb7_004_x1EB.jpg",
+      "image": "public/ideas/park/1f7418bd99f26afeb708159ceb88bdb7_004_x1EB.jpg",
       "file": "1f7418bd99f26afeb708159ceb88bdb7_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -1400,7 +1400,7 @@ const IDEAS = {
       "code": "PK-023",
       "label": "PK-023 PK-CC-SHADE",
       "group": "park",
-      "image": "/public/ideas/park/252ee562fe8c750882622999b6bfea82_004_x1EB.jpg",
+      "image": "public/ideas/park/252ee562fe8c750882622999b6bfea82_004_x1EB.jpg",
       "file": "252ee562fe8c750882622999b6bfea82_004_x1EB.jpg",
       "tags": [
         "dappled",
@@ -1447,7 +1447,7 @@ const IDEAS = {
       "code": "PK-024",
       "label": "PK-024 PK-CC-SHADE WBSHADE0R0B H0",
       "group": "park",
-      "image": "/public/ideas/park/2be035120b6865da1c65c6501fb0c846_x1EB.jpg",
+      "image": "public/ideas/park/2be035120b6865da1c65c6501fb0c846_x1EB.jpg",
       "file": "2be035120b6865da1c65c6501fb0c846_x1EB.jpg",
       "tags": [
         "shade",
@@ -1509,7 +1509,7 @@ const IDEAS = {
       "code": "PK-025",
       "label": "PK-025 PK-CN-FADE",
       "group": "park",
-      "image": "/public/ideas/park/2ce590638d587495e6fd5e5799baada9_003_x1EB.jpg",
+      "image": "public/ideas/park/2ce590638d587495e6fd5e5799baada9_003_x1EB.jpg",
       "file": "2ce590638d587495e6fd5e5799baada9_003_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -1556,7 +1556,7 @@ const IDEAS = {
       "code": "PK-026",
       "label": "PK-026 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/305155b44276a14849ea56eeffe9e042_003_x1EB.jpg",
+      "image": "public/ideas/park/305155b44276a14849ea56eeffe9e042_003_x1EB.jpg",
       "file": "305155b44276a14849ea56eeffe9e042_003_x1EB.jpg",
       "tags": [
         "golden",
@@ -1604,7 +1604,7 @@ const IDEAS = {
       "code": "PK-027",
       "label": "PK-027 PK-CC-HAZE WBDAY+1R-2B S0",
       "group": "park",
-      "image": "/public/ideas/park/31357d8a6d178c8ea195a78a3ad82349_004_x1EB.jpg",
+      "image": "public/ideas/park/31357d8a6d178c8ea195a78a3ad82349_004_x1EB.jpg",
       "file": "31357d8a6d178c8ea195a78a3ad82349_004_x1EB.jpg",
       "tags": [
         "low",
@@ -1667,7 +1667,7 @@ const IDEAS = {
       "code": "PK-028",
       "label": "PK-028 PK-CC-HAZE",
       "group": "park",
-      "image": "/public/ideas/park/324ca4d93b33f224e574d37a1e1c0091_x1EB.jpg",
+      "image": "public/ideas/park/324ca4d93b33f224e574d37a1e1c0091_x1EB.jpg",
       "file": "324ca4d93b33f224e574d37a1e1c0091_x1EB.jpg",
       "tags": [
         "backlight",
@@ -1714,7 +1714,7 @@ const IDEAS = {
       "code": "PK-029",
       "label": "PK-029 PK-CC-SUN WBDAY+1R-3B",
       "group": "park",
-      "image": "/public/ideas/park/33c745f7647a15c98805a13f461b81a8_003_x1EB.jpg",
+      "image": "public/ideas/park/33c745f7647a15c98805a13f461b81a8_003_x1EB.jpg",
       "file": "33c745f7647a15c98805a13f461b81a8_003_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -1769,7 +1769,7 @@ const IDEAS = {
       "code": "PK-030",
       "label": "PK-030 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/346d1ebd9c0af7059cbf5ecf324afd14_003_x1EB.jpg",
+      "image": "public/ideas/park/346d1ebd9c0af7059cbf5ecf324afd14_003_x1EB.jpg",
       "file": "346d1ebd9c0af7059cbf5ecf324afd14_003_x1EB.jpg",
       "tags": [
         "golden",
@@ -1816,7 +1816,7 @@ const IDEAS = {
       "code": "PK-031",
       "label": "PK-031 PK-NN-WARM",
       "group": "park",
-      "image": "/public/ideas/park/37f727f5f9bbafe8805c986005885746_003_x1EB.jpg",
+      "image": "public/ideas/park/37f727f5f9bbafe8805c986005885746_003_x1EB.jpg",
       "file": "37f727f5f9bbafe8805c986005885746_003_x1EB.jpg",
       "tags": [
         "golden",
@@ -1863,7 +1863,7 @@ const IDEAS = {
       "code": "PK-032",
       "label": "PK-032 PK-CC-SUN SH-2",
       "group": "park",
-      "image": "/public/ideas/park/38f49f1703f2fb6d9b648212596b37d6_002_x1EB.jpg",
+      "image": "public/ideas/park/38f49f1703f2fb6d9b648212596b37d6_002_x1EB.jpg",
       "file": "38f49f1703f2fb6d9b648212596b37d6_002_x1EB.jpg",
       "tags": [
         "shade",
@@ -1918,7 +1918,7 @@ const IDEAS = {
       "code": "PK-033",
       "label": "PK-033 PK-CC-SHADE",
       "group": "park",
-      "image": "/public/ideas/park/3e2723bf4953b3985ae571f60dc62882_003_x1EB.jpg",
+      "image": "public/ideas/park/3e2723bf4953b3985ae571f60dc62882_003_x1EB.jpg",
       "file": "3e2723bf4953b3985ae571f60dc62882_003_x1EB.jpg",
       "tags": [
         "dappled",
@@ -1965,7 +1965,7 @@ const IDEAS = {
       "code": "PK-034",
       "label": "PK-034 PK-AS-SOFT WBDAY+1R-2B",
       "group": "park",
-      "image": "/public/ideas/park/4973291a1b01cb299aa1b41b34ba68df_004_x1EB.jpg",
+      "image": "public/ideas/park/4973291a1b01cb299aa1b41b34ba68df_004_x1EB.jpg",
       "file": "4973291a1b01cb299aa1b41b34ba68df_004_x1EB.jpg",
       "tags": [
         "overhead",
@@ -2020,7 +2020,7 @@ const IDEAS = {
       "code": "PK-035",
       "label": "PK-035 PK-CN-FADE WB5200K-2R-6B S+1",
       "group": "park",
-      "image": "/public/ideas/park/52c172f87aee132e0d953eafd773f7b5_004_x1EB.jpg",
+      "image": "public/ideas/park/52c172f87aee132e0d953eafd773f7b5_004_x1EB.jpg",
       "file": "52c172f87aee132e0d953eafd773f7b5_004_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -2082,7 +2082,7 @@ const IDEAS = {
       "code": "PK-036",
       "label": "PK-036 PK-CC-SHADE",
       "group": "park",
-      "image": "/public/ideas/park/54cfe3b2573fe6dcd796ce847783ed7a_004_x1EB.jpg",
+      "image": "public/ideas/park/54cfe3b2573fe6dcd796ce847783ed7a_004_x1EB.jpg",
       "file": "54cfe3b2573fe6dcd796ce847783ed7a_004_x1EB.jpg",
       "tags": [
         "shade",
@@ -2129,7 +2129,7 @@ const IDEAS = {
       "code": "PK-037",
       "label": "PK-037 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/55875890c07d63f0d26f5c31af8eead9_003_x1EB.jpg",
+      "image": "public/ideas/park/55875890c07d63f0d26f5c31af8eead9_003_x1EB.jpg",
       "file": "55875890c07d63f0d26f5c31af8eead9_003_x1EB.jpg",
       "tags": [
         "dappled",
@@ -2176,7 +2176,7 @@ const IDEAS = {
       "code": "PK-038",
       "label": "PK-038 PK-CC-SHADE CCE-S",
       "group": "park",
-      "image": "/public/ideas/park/57f020e5922b8edb98e4b398576721b5_004_x1EB.jpg",
+      "image": "public/ideas/park/57f020e5922b8edb98e4b398576721b5_004_x1EB.jpg",
       "file": "57f020e5922b8edb98e4b398576721b5_004_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -2231,7 +2231,7 @@ const IDEAS = {
       "code": "PK-039",
       "label": "PK-039 PK-CC-HAZE C+3",
       "group": "park",
-      "image": "/public/ideas/park/5d42a0e8d565d5f53425535e3e574f8e_x1EB.jpg",
+      "image": "public/ideas/park/5d42a0e8d565d5f53425535e3e574f8e_x1EB.jpg",
       "file": "5d42a0e8d565d5f53425535e3e574f8e_x1EB.jpg",
       "tags": [
         "backlight",
@@ -2286,7 +2286,7 @@ const IDEAS = {
       "code": "PK-040",
       "label": "PK-040 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/5f2a5b9565cb012c06248945890b2002_004_x1EB.jpg",
+      "image": "public/ideas/park/5f2a5b9565cb012c06248945890b2002_004_x1EB.jpg",
       "file": "5f2a5b9565cb012c06248945890b2002_004_x1EB.jpg",
       "tags": [
         "overhead",
@@ -2333,7 +2333,7 @@ const IDEAS = {
       "code": "PK-041",
       "label": "PK-041 PK-CC-SUN",
       "group": "park",
-      "image": "/public/ideas/park/635773b89a9d037ad7ef418d68ac7f12_003_x1EB.jpg",
+      "image": "public/ideas/park/635773b89a9d037ad7ef418d68ac7f12_003_x1EB.jpg",
       "file": "635773b89a9d037ad7ef418d68ac7f12_003_x1EB.jpg",
       "tags": [
         "shade",
@@ -2380,7 +2380,7 @@ const IDEAS = {
       "code": "PK-042",
       "label": "PK-042 PK-CC-GOLD DR100 CL-3",
       "group": "park",
-      "image": "/public/ideas/park/65327af7f5959323de88ebdc28bf7dd3_002_x1EB.jpg",
+      "image": "public/ideas/park/65327af7f5959323de88ebdc28bf7dd3_002_x1EB.jpg",
       "file": "65327af7f5959323de88ebdc28bf7dd3_002_x1EB.jpg",
       "tags": [
         "golden",
@@ -2442,7 +2442,7 @@ const IDEAS = {
       "code": "PK-043",
       "label": "PK-043 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/658ed1908c683f1dcafe26325a601684_004_x1EB.jpg",
+      "image": "public/ideas/park/658ed1908c683f1dcafe26325a601684_004_x1EB.jpg",
       "file": "658ed1908c683f1dcafe26325a601684_004_x1EB.jpg",
       "tags": [
         "dappled",
@@ -2489,7 +2489,7 @@ const IDEAS = {
       "code": "PK-044",
       "label": "PK-044 PK-CC-SHADE",
       "group": "park",
-      "image": "/public/ideas/park/67d3c90f8fcec9c73bf56457606f278a_002_x1EB.jpg",
+      "image": "public/ideas/park/67d3c90f8fcec9c73bf56457606f278a_002_x1EB.jpg",
       "file": "67d3c90f8fcec9c73bf56457606f278a_002_x1EB.jpg",
       "tags": [
         "shade",
@@ -2536,7 +2536,7 @@ const IDEAS = {
       "code": "PK-045",
       "label": "PK-045 PK-AS-SOFT WBDAY+2R-3B C+1",
       "group": "park",
-      "image": "/public/ideas/park/7842926bb2ad526d992b9534e5ae618d_x1EB.jpg",
+      "image": "public/ideas/park/7842926bb2ad526d992b9534e5ae618d_x1EB.jpg",
       "file": "7842926bb2ad526d992b9534e5ae618d_x1EB.jpg",
       "tags": [
         "golden",
@@ -2598,7 +2598,7 @@ const IDEAS = {
       "code": "PK-046",
       "label": "PK-046 PK-NN-WARM H-2 CL-5",
       "group": "park",
-      "image": "/public/ideas/park/796bcc35ebe73f2a54d0ff9f4180b7fc_004_x1EB.jpg",
+      "image": "public/ideas/park/796bcc35ebe73f2a54d0ff9f4180b7fc_004_x1EB.jpg",
       "file": "796bcc35ebe73f2a54d0ff9f4180b7fc_004_x1EB.jpg",
       "tags": [
         "backlight",
@@ -2660,7 +2660,7 @@ const IDEAS = {
       "code": "PK-047",
       "label": "PK-047 PK-CC-SUN",
       "group": "park",
-      "image": "/public/ideas/park/84f39403e8a0cb9c34f3ce71e1573e10_004_x1EB.jpg",
+      "image": "public/ideas/park/84f39403e8a0cb9c34f3ce71e1573e10_004_x1EB.jpg",
       "file": "84f39403e8a0cb9c34f3ce71e1573e10_004_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -2707,7 +2707,7 @@ const IDEAS = {
       "code": "PK-048",
       "label": "PK-048 PK-CC-SHADE WBDAY+3R-2B H-2",
       "group": "park",
-      "image": "/public/ideas/park/8b8dd758bcac6a97c43e165364cf4517_004_x1EB.jpg",
+      "image": "public/ideas/park/8b8dd758bcac6a97c43e165364cf4517_004_x1EB.jpg",
       "file": "8b8dd758bcac6a97c43e165364cf4517_004_x1EB.jpg",
       "tags": [
         "overhead",
@@ -2770,7 +2770,7 @@ const IDEAS = {
       "code": "PK-049",
       "label": "PK-049 PK-CC-SHADE WBDAY+1R-1B GR-SS",
       "group": "park",
-      "image": "/public/ideas/park/92b6b342a53054ef60c868a8e763c667_004_x1EB.jpg",
+      "image": "public/ideas/park/92b6b342a53054ef60c868a8e763c667_004_x1EB.jpg",
       "file": "92b6b342a53054ef60c868a8e763c667_004_x1EB.jpg",
       "tags": [
         "close"
@@ -2831,7 +2831,7 @@ const IDEAS = {
       "code": "PK-050",
       "label": "PK-050 PK-CC-HAZE",
       "group": "park",
-      "image": "/public/ideas/park/95668676876ac14befadf117807777a1_004_x1EB.jpg",
+      "image": "public/ideas/park/95668676876ac14befadf117807777a1_004_x1EB.jpg",
       "file": "95668676876ac14befadf117807777a1_004_x1EB.jpg",
       "tags": [
         "backlight",
@@ -2878,7 +2878,7 @@ const IDEAS = {
       "code": "PK-051",
       "label": "PK-051 PK-CC-HAZE",
       "group": "park",
-      "image": "/public/ideas/park/9beac2e8254dbd987a36389e2c963aee_004_x1EB.jpg",
+      "image": "public/ideas/park/9beac2e8254dbd987a36389e2c963aee_004_x1EB.jpg",
       "file": "9beac2e8254dbd987a36389e2c963aee_004_x1EB.jpg",
       "tags": [
         "backlight",
@@ -2925,7 +2925,7 @@ const IDEAS = {
       "code": "PK-052",
       "label": "PK-052 PK-CC-SHADE WBSHADE+1R-2B",
       "group": "park",
-      "image": "/public/ideas/park/9cad310e247bb5390075bc598ce63111_003_x1EB.jpg",
+      "image": "public/ideas/park/9cad310e247bb5390075bc598ce63111_003_x1EB.jpg",
       "file": "9cad310e247bb5390075bc598ce63111_003_x1EB.jpg",
       "tags": [
         "shade",
@@ -2980,7 +2980,7 @@ const IDEAS = {
       "code": "PK-053",
       "label": "PK-053 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/a0850e0a40cc626d908bd2e626503455_004_x1EB.jpg",
+      "image": "public/ideas/park/a0850e0a40cc626d908bd2e626503455_004_x1EB.jpg",
       "file": "a0850e0a40cc626d908bd2e626503455_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -3027,7 +3027,7 @@ const IDEAS = {
       "code": "PK-054",
       "label": "PK-054 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/a8636d9ea9e94ec0099c4abf2e8eb60f_004_x1EB.jpg",
+      "image": "public/ideas/park/a8636d9ea9e94ec0099c4abf2e8eb60f_004_x1EB.jpg",
       "file": "a8636d9ea9e94ec0099c4abf2e8eb60f_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -3074,7 +3074,7 @@ const IDEAS = {
       "code": "PK-055",
       "label": "PK-055 PK-CC-SUN H-1",
       "group": "park",
-      "image": "/public/ideas/park/aa3223dffc5190b837148d4315e8da06_004_x1EB.jpg",
+      "image": "public/ideas/park/aa3223dffc5190b837148d4315e8da06_004_x1EB.jpg",
       "file": "aa3223dffc5190b837148d4315e8da06_004_x1EB.jpg",
       "tags": [
         "backlight",
@@ -3129,7 +3129,7 @@ const IDEAS = {
       "code": "PK-056",
       "label": "PK-056 PK-CC-HAZE",
       "group": "park",
-      "image": "/public/ideas/park/aee642beb435904219bada1a0824d527_004_x1EB.jpg",
+      "image": "public/ideas/park/aee642beb435904219bada1a0824d527_004_x1EB.jpg",
       "file": "aee642beb435904219bada1a0824d527_004_x1EB.jpg",
       "tags": [
         "backlight",
@@ -3176,7 +3176,7 @@ const IDEAS = {
       "code": "PK-057",
       "label": "PK-057 PK-CC-GOLD H-2 S-1",
       "group": "park",
-      "image": "/public/ideas/park/b036fecd1f3c6f655e10e7a46c650657_003_x1EB.jpg",
+      "image": "public/ideas/park/b036fecd1f3c6f655e10e7a46c650657_003_x1EB.jpg",
       "file": "b036fecd1f3c6f655e10e7a46c650657_003_x1EB.jpg",
       "tags": [
         "backlight",
@@ -3238,7 +3238,7 @@ const IDEAS = {
       "code": "PK-058",
       "label": "PK-058 PK-CC-SUN",
       "group": "park",
-      "image": "/public/ideas/park/b0434855308b352b70592116d769ecec_002_x1EB.jpg",
+      "image": "public/ideas/park/b0434855308b352b70592116d769ecec_002_x1EB.jpg",
       "file": "b0434855308b352b70592116d769ecec_002_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -3285,7 +3285,7 @@ const IDEAS = {
       "code": "PK-059",
       "label": "PK-059 PK-CC-SUN",
       "group": "park",
-      "image": "/public/ideas/park/b349716517e67b20425689422ec080be_003_x1EB.jpg",
+      "image": "public/ideas/park/b349716517e67b20425689422ec080be_003_x1EB.jpg",
       "file": "b349716517e67b20425689422ec080be_003_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -3332,7 +3332,7 @@ const IDEAS = {
       "code": "PK-060",
       "label": "PK-060 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/bb3e4acb05fc04e606889ea021b97811_004_x1EB.jpg",
+      "image": "public/ideas/park/bb3e4acb05fc04e606889ea021b97811_004_x1EB.jpg",
       "file": "bb3e4acb05fc04e606889ea021b97811_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -3379,7 +3379,7 @@ const IDEAS = {
       "code": "PK-061",
       "label": "PK-061 PK-CN-FADE WB5200K-1R-5B",
       "group": "park",
-      "image": "/public/ideas/park/c09db9c516ae8b8580bf2d39b0b519c8_004_x1EB.jpg",
+      "image": "public/ideas/park/c09db9c516ae8b8580bf2d39b0b519c8_004_x1EB.jpg",
       "file": "c09db9c516ae8b8580bf2d39b0b519c8_004_x1EB.jpg",
       "tags": [
         "low",
@@ -3434,7 +3434,7 @@ const IDEAS = {
       "code": "PK-062",
       "label": "PK-062 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/c8cb66f7b4d713967ae3c5f67990e5a6_002_x1EB.jpg",
+      "image": "public/ideas/park/c8cb66f7b4d713967ae3c5f67990e5a6_002_x1EB.jpg",
       "file": "c8cb66f7b4d713967ae3c5f67990e5a6_002_x1EB.jpg",
       "tags": [
         "dappled",
@@ -3481,7 +3481,7 @@ const IDEAS = {
       "code": "PK-063",
       "label": "PK-063 PK-CC-SHADE CCE-S",
       "group": "park",
-      "image": "/public/ideas/park/ca0b6667cfa797a14e4cd49422a03bbf_004_x1EB.jpg",
+      "image": "public/ideas/park/ca0b6667cfa797a14e4cd49422a03bbf_004_x1EB.jpg",
       "file": "ca0b6667cfa797a14e4cd49422a03bbf_004_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -3536,7 +3536,7 @@ const IDEAS = {
       "code": "PK-064",
       "label": "PK-064 PK-CC-GOLD GR-WS",
       "group": "park",
-      "image": "/public/ideas/park/cbca13773e57335bda6f96b6ee54f878_002_x1EB.jpg",
+      "image": "public/ideas/park/cbca13773e57335bda6f96b6ee54f878_002_x1EB.jpg",
       "file": "cbca13773e57335bda6f96b6ee54f878_002_x1EB.jpg",
       "tags": [
         "golden",
@@ -3591,7 +3591,7 @@ const IDEAS = {
       "code": "PK-065",
       "label": "PK-065 PK-CC-HAZE",
       "group": "park",
-      "image": "/public/ideas/park/d5abbaf4ec9ee28459b4be091807dc5f_002_x1EB.jpg",
+      "image": "public/ideas/park/d5abbaf4ec9ee28459b4be091807dc5f_002_x1EB.jpg",
       "file": "d5abbaf4ec9ee28459b4be091807dc5f_002_x1EB.jpg",
       "tags": [
         "backlight",
@@ -3638,7 +3638,7 @@ const IDEAS = {
       "code": "PK-066",
       "label": "PK-066 PK-CC-HAZE WBDAY+1R-3B",
       "group": "park",
-      "image": "/public/ideas/park/d82420305a65f9c9ad6d4c1f76d2f56a_004_x1EB.jpg",
+      "image": "public/ideas/park/d82420305a65f9c9ad6d4c1f76d2f56a_004_x1EB.jpg",
       "file": "d82420305a65f9c9ad6d4c1f76d2f56a_004_x1EB.jpg",
       "tags": [
         "dappled",
@@ -3693,7 +3693,7 @@ const IDEAS = {
       "code": "PK-067",
       "label": "PK-067 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/db943866720593cd532dbefebe2c53b3_004_x1EB.jpg",
+      "image": "public/ideas/park/db943866720593cd532dbefebe2c53b3_004_x1EB.jpg",
       "file": "db943866720593cd532dbefebe2c53b3_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -3740,7 +3740,7 @@ const IDEAS = {
       "code": "PK-068",
       "label": "PK-068 PK-CN-FADE S+1",
       "group": "park",
-      "image": "/public/ideas/park/df743900937dd71940b282dcf06c14f1_x1EB.jpg",
+      "image": "public/ideas/park/df743900937dd71940b282dcf06c14f1_x1EB.jpg",
       "file": "df743900937dd71940b282dcf06c14f1_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -3795,7 +3795,7 @@ const IDEAS = {
       "code": "PK-069",
       "label": "PK-069 PK-CC-SHADE",
       "group": "park",
-      "image": "/public/ideas/park/e362324a4a0bced32cecdd182c069373_003_x1EB.jpg",
+      "image": "public/ideas/park/e362324a4a0bced32cecdd182c069373_003_x1EB.jpg",
       "file": "e362324a4a0bced32cecdd182c069373_003_x1EB.jpg",
       "tags": [
         "dappled",
@@ -3842,7 +3842,7 @@ const IDEAS = {
       "code": "PK-070",
       "label": "PK-070 PK-CC-SHADE",
       "group": "park",
-      "image": "/public/ideas/park/e786e46d746092908ec07a034d0d2b0e_004_x1EB.jpg",
+      "image": "public/ideas/park/e786e46d746092908ec07a034d0d2b0e_004_x1EB.jpg",
       "file": "e786e46d746092908ec07a034d0d2b0e_004_x1EB.jpg",
       "tags": [
         "dappled",
@@ -3889,7 +3889,7 @@ const IDEAS = {
       "code": "PK-071",
       "label": "PK-071 PK-CC-SHADE CCE-S",
       "group": "park",
-      "image": "/public/ideas/park/e842cc059a1072ee3ac68535cdeb1d41_004_x1EB.jpg",
+      "image": "public/ideas/park/e842cc059a1072ee3ac68535cdeb1d41_004_x1EB.jpg",
       "file": "e842cc059a1072ee3ac68535cdeb1d41_004_x1EB.jpg",
       "tags": [
         "hard-sun",
@@ -3944,7 +3944,7 @@ const IDEAS = {
       "code": "PK-072",
       "label": "PK-072 PK-CC-SUN H-1.5 CCE-W",
       "group": "park",
-      "image": "/public/ideas/park/ea4e4f5b570f911b0e2d5c17aae17ac5_002_x1EB.jpg",
+      "image": "public/ideas/park/ea4e4f5b570f911b0e2d5c17aae17ac5_002_x1EB.jpg",
       "file": "ea4e4f5b570f911b0e2d5c17aae17ac5_002_x1EB.jpg",
       "tags": [
         "golden",
@@ -4006,7 +4006,7 @@ const IDEAS = {
       "code": "PK-073",
       "label": "PK-073 PK-CC-SHADE WBDAY+1R-6B CCE-S",
       "group": "park",
-      "image": "/public/ideas/park/ec5fa4cfaa3ae2408157ee1736a85bd2_003_x1EB.jpg",
+      "image": "public/ideas/park/ec5fa4cfaa3ae2408157ee1736a85bd2_003_x1EB.jpg",
       "file": "ec5fa4cfaa3ae2408157ee1736a85bd2_003_x1EB.jpg",
       "tags": [
         "low",
@@ -4068,7 +4068,7 @@ const IDEAS = {
       "code": "PK-074",
       "label": "PK-074 PK-AS-SOFT",
       "group": "park",
-      "image": "/public/ideas/park/ecbabb2a9750def58a902ca0c6f87716_002_x1EB.jpg",
+      "image": "public/ideas/park/ecbabb2a9750def58a902ca0c6f87716_002_x1EB.jpg",
       "file": "ecbabb2a9750def58a902ca0c6f87716_002_x1EB.jpg",
       "tags": [
         "shade",
@@ -4115,7 +4115,7 @@ const IDEAS = {
       "code": "PK-075",
       "label": "PK-075 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/ed6762a257cca68342b9344931dda1eb_004_x1EB.jpg",
+      "image": "public/ideas/park/ed6762a257cca68342b9344931dda1eb_004_x1EB.jpg",
       "file": "ed6762a257cca68342b9344931dda1eb_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -4162,7 +4162,7 @@ const IDEAS = {
       "code": "PK-076",
       "label": "PK-076 PK-NN-WARM",
       "group": "park",
-      "image": "/public/ideas/park/f076440be85d2ddf19bee778a4708ff9_004_x1EB.jpg",
+      "image": "public/ideas/park/f076440be85d2ddf19bee778a4708ff9_004_x1EB.jpg",
       "file": "f076440be85d2ddf19bee778a4708ff9_004_x1EB.jpg",
       "tags": [
         "golden",
@@ -4209,7 +4209,7 @@ const IDEAS = {
       "code": "PK-077",
       "label": "PK-077 PK-CC-SHADE FXB-W",
       "group": "park",
-      "image": "/public/ideas/park/f1d8e47fa45209ea2e75ab41473522be_004_x1EB.jpg",
+      "image": "public/ideas/park/f1d8e47fa45209ea2e75ab41473522be_004_x1EB.jpg",
       "file": "f1d8e47fa45209ea2e75ab41473522be_004_x1EB.jpg",
       "tags": [
         "dappled",
@@ -4264,7 +4264,7 @@ const IDEAS = {
       "code": "PK-078",
       "label": "PK-078 PK-CC-GOLD",
       "group": "park",
-      "image": "/public/ideas/park/f73a4f1fb3f6b1adf4520c424b8d16e7_002_x1EB.jpg",
+      "image": "public/ideas/park/f73a4f1fb3f6b1adf4520c424b8d16e7_002_x1EB.jpg",
       "file": "f73a4f1fb3f6b1adf4520c424b8d16e7_002_x1EB.jpg",
       "tags": [
         "golden",
@@ -4311,7 +4311,7 @@ const IDEAS = {
       "code": "PK-079",
       "label": "PK-079 PK-CC-GOLD CL+1",
       "group": "park",
-      "image": "/public/ideas/park/f8aec93394c2845c9c653038fd716f2e_002_x1EB.jpg",
+      "image": "public/ideas/park/f8aec93394c2845c9c653038fd716f2e_002_x1EB.jpg",
       "file": "f8aec93394c2845c9c653038fd716f2e_002_x1EB.jpg",
       "tags": [
         "golden",

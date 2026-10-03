@@ -146,10 +146,10 @@ function compactDials(shot) {
 function renderGroups() {
   const ready = parkShots().length;
   const liked = likedShots().length;
-  lede.innerHTML = `Frames to shoot again on the X-S20. <a href="/ideas/park/?liked=1">Liked · ${liked}</a>`;
+  lede.innerHTML = `Frames to shoot again on the X-S20. <a href="${siteUrl("ideas/park/?liked=1")}">Liked · ${liked}</a>`;
   main.innerHTML = `<div class="groups">${IDEAS.groups.map((group) => {
-    return `<a class="group" href="${esc(group.href)}">
-      <img src="${esc(group.cover)}" alt="">
+    return `<a class="group" href="${esc(siteUrl(group.href))}">
+      <img src="${esc(siteUrl(group.cover))}" alt="">
       <div>
         <p class="kicker">${ready} frames</p>
         <h2>${esc(group.title)}</h2>
@@ -185,7 +185,7 @@ function renderGallery() {
       return `<article class="card">
         ${heartHtml(shot)}
         <a href="#${esc(shot.id)}">
-          <img src="${esc(shot.image)}" alt="" loading="lazy">
+          <img src="${esc(siteUrl(shot.image))}" alt="" loading="lazy">
           <div>
             ${shot.code ? `<p class="kicker">${esc(shot.code)} · ${esc((baseOf(shot) || {}).name || "")}</p>` : ""}
             <h2>${esc(shot.look)}</h2>
@@ -236,7 +236,7 @@ function recipeLine(shot) {
   const base = baseOf(shot);
   if (!base) return "";
   return `<div class="base-line">
-    <a class="base-name" href="/recipes/?group=park#${esc(base.id)}">Recipe: ${esc(base.name)}</a>
+    <a class="base-name" href="${siteUrl("recipes/?group=park")}#${esc(base.id)}">Recipe: ${esc(base.name)}</a>
     <span class="code">${esc(base.code)}</span>
     <span class="deltas">${deltaChips(shot)}</span>
   </div>`;
@@ -247,10 +247,10 @@ function renderDetail(shot) {
   lede.textContent = shot.mood;
   if (filtersEl) filtersEl.hidden = true;
   main.innerHTML = `<article class="detail">
-    <a class="back" href="/ideas/park">Park</a>
-    <div class="frame"><img src="${esc(shot.image)}" alt="${esc(shot.look)}"></div>
+    <a class="back" href="${siteUrl("ideas/park/")}">Park</a>
+    <div class="frame"><img src="${esc(siteUrl(shot.image))}" alt="${esc(shot.look)}"></div>
     <div class="paper">
-      <p class="kicker"><a href="/ideas/park/recipes#${esc(shot.id)}">${esc(shot.label || shot.code || "")}</a></p>
+      <p class="kicker"><a href="${siteUrl("ideas/park/recipes/")}#${esc(shot.id)}">${esc(shot.label || shot.code || "")}</a></p>
       <div class="title-line"><h2>${esc(shot.look)}</h2>${heartHtml(shot)}</div>
       <p class="sub">${esc(shot.mood)}</p>
       ${recipeLine(shot)}
@@ -268,10 +268,10 @@ function renderDetail(shot) {
 
 function recipeRow(shot) {
   return `<article class="recipe" id="${esc(shot.id)}">
-      <a href="/ideas/park/#${esc(shot.id)}"><img src="${esc(shot.image)}" alt="" loading="lazy"></a>
+      <a href="${siteUrl("ideas/park/")}#${esc(shot.id)}"><img src="${esc(siteUrl(shot.image))}" alt="" loading="lazy"></a>
       <div>
         <p class="kicker">${esc(shot.code || "")}</p>
-        <h2><a href="/ideas/park/#${esc(shot.id)}">${esc(shot.look)}</a></h2>
+        <h2><a href="${siteUrl("ideas/park/")}#${esc(shot.id)}">${esc(shot.look)}</a></h2>
         <div class="deltas">${deltaChips(shot)}</div>
         ${compactDials(shot)}
       </div>
@@ -282,12 +282,12 @@ function renderRecipes() {
   const shots = parkShots();
   const bases = IDEAS.bases || [];
   document.title = "Park recipes · Ideas";
-  lede.innerHTML = `${shots.length} frames on ${bases.length} recipes. <a href="/recipes/?group=park">Recipe cards</a>`;
+  lede.innerHTML = `${shots.length} frames on ${bases.length} recipes. <a href="${siteUrl("recipes/?group=park")}">Recipe cards</a>`;
   const blocks = bases.map((base) => {
     const own = shots.filter((shot) => shot.recipe === base.id);
     if (!own.length) return "";
     return `<section class="base-block" id="${esc(base.id)}">
-      <h2 class="base-head"><a href="/recipes/?group=park#${esc(base.id)}">${esc(base.name)}</a> <span class="code">${esc(base.code)}</span> <span class="count">${own.length}</span></h2>
+      <h2 class="base-head"><a href="${siteUrl("recipes/?group=park")}#${esc(base.id)}">${esc(base.name)}</a> <span class="code">${esc(base.code)}</span> <span class="count">${own.length}</span></h2>
       <div class="recipes">${own.map(recipeRow).join("")}</div>
     </section>`;
   }).join("");
@@ -336,7 +336,7 @@ if (filtersEl) {
     const button = event.target.closest("[data-tag]");
     if (!button) return;
     activeTag = activeTag === button.dataset.tag ? null : button.dataset.tag;
-    const path = activeTag === "liked" ? "/ideas/park/?liked=1" : "/ideas/park";
+    const path = activeTag === "liked" ? siteUrl("ideas/park/?liked=1") : siteUrl("ideas/park/");
     if (location.hash || location.search) history.pushState(null, "", path);
     else if (activeTag === "liked") history.pushState(null, "", path);
     renderGallery();
